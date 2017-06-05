@@ -41,10 +41,12 @@ En esta seccion se muestran las tablets que estan en venta junto con su descripc
 
 ## PAGINA TELEFONO
 ![image6](docs/images/TELEFONO.png)
+
 En esta seccion se muestran los telefonos que estan en venta junto con su descripcion. En cada producto se muestra la opcion de agregar al carrito de compras y si a el usuario le gusta el producto puede hacer clic en el boton con el pulgar arriba.
 
 ## PAGINA ACCESORIOS
 ![image7](docs/images/ACCESORIOS.png)
+
 En esta seccion se muestran los accesorios que se venden junto con su descripcion. En cada producto se muestra la opcion de agregar al carrito de compras y si a el usuario le gusta el producto puede hacer clic en el boton con el pulgar arriba.
 
 ## PAGINA INFO
