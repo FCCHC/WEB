@@ -1,4 +1,5 @@
 # WEB
+
 Pagina web de productos tecnologicos
 
 ## MAPA DE SITIO
@@ -46,4 +47,5 @@ En esta seccion se muestran los productos que se venden junto con su descripcion
 
 ## PAGINA INFO
 ![image8](docs/images/INFO.png)
+
 En esta pagina se muestra un formulario para que el usuario envie comentarios al sitio y ademas cuenta con informacion para contactar por otros medios al sitio.
