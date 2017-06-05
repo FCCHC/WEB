@@ -7,6 +7,7 @@ Pagina web de productos tecnologicos
 ![image1](docs/images/SITEMAP.png)
 
 La pagina web consta de 3 secciones:
+
  1. Inicio: Esta seccion es la pagina de bienvenida y muestra imagenes de los productos.
  2. productos: Cuenta con cuatro subsecciones que son computadoras, tablets, audio y accesorios.
  3. Info: En esta seccion se muestra un formulario para enviar comentarios al sitio.
@@ -22,6 +23,7 @@ se señala los metodos de pago y las redes sociales.
 ![image3](docs/images/PRODUCTOS.png)
 
 En esta seccion se muestra cuatro imagenes cada una te lleva a la categoria que le corresponde, las cuales son:
+
 1. computadoras
 2. tablets
 3. Telefono
