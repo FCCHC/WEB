@@ -70,5 +70,5 @@ En esta seccion se muestran los productos que se venden junto con su descripcion
 En esta seccion se muestran los productos que se venden junto con su descripcion. En cada producto se muestra la opcion de agregar al carrito de compras y si a el usuario le gusta el producto puede hacer clic en el boton con el pulgar arriba.
 
 #Info
-![image8](docs/images/INFO.png)
+![image8](docs/images/info.png)
 En esta pagina se muestra un formulario para que el usuario envie comentarios al sitio y ademas cuenta con informacion para contactar por otros medios al sitio.
