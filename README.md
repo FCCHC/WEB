@@ -61,14 +61,14 @@ En esta seccion se muestran los accesorios que se venden junto con su descripcio
 
 En esta pagina se muestra un formulario para que el usuario envie comentarios al sitio, los datos que se solicitan en este formulario son: Nombre, telefono y correo. Ademas del comentario que desea enviar el usuario.
 
-#Telefono
+## TELEFONO
 ![image6](docs/images/TELEFONO.png)
 En esta seccion se muestran los productos que se venden junto con su descripcion. En cada producto se muestra la opcion de agregar al carrito de compras y si a el usuario le gusta el producto puede hacer clic en el boton con el pulgar arriba.
 
-#accesorios
+## ACCESORIOS
 ![image7](docs/images/ACCESORIOS.png)
 En esta seccion se muestran los productos que se venden junto con su descripcion. En cada producto se muestra la opcion de agregar al carrito de compras y si a el usuario le gusta el producto puede hacer clic en el boton con el pulgar arriba.
 
-#Info
+## Info
 ![image8](docs/images/info.png)
 En esta pagina se muestra un formulario para que el usuario envie comentarios al sitio y ademas cuenta con informacion para contactar por otros medios al sitio.
