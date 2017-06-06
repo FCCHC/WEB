@@ -6,9 +6,6 @@ Pagina web de productos tecnologicos
 
 ![image1](docs/images/sitemap.png)
 
-
-![image1](docs/images/sitemap.png)
-
 La pagina web consta de 3 secciones:
 
  1. Inicio: Esta seccion es la pagina principal.
