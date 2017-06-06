@@ -1,0 +1,307 @@
+
+body {
+background-color: #f3f6f6;
+
+}
+header {
+   background-color: #30e3ca;
+   color:##11999e;
+   font-size: 18px;
+   font-family: 'Cantata One', serif;
+   width: 97%;
+   padding: 20px;
+   border-radius: 10px;
+  
+  /*flex*/
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  flex-direction: row;
+
+
+}
+
+header nav {
+ width: 100%;
+   /*flex*/
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+
+
+}
+
+header nav a {
+  color:#40514e;
+
+  background-color:#30e3ca;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Cantata One', serif;
+  /*flex*/
+  flex-grow: 1;
+
+
+}
+nav a:hover {
+
+  color:#ffff;
+}
+
+
+.titulo h2{
+  color: #2C38FF;
+  font-size: 45px;
+  font-family: 'Artifika', serif;
+  text-align: center;
+
+}
+
+.titulo a {
+
+  color: #2C38FF;
+  font-size: 65px;
+  font-family: 'Artifika', serif;
+  text-align: center;
+
+
+}
+
+.titulo {
+
+
+margin: 20px;
+  /*flex*/
+display: flex;
+align-content: flex-end;
+flex-direction: row;
+
+justify-content: center;
+}
+
+.titulo img {
+  vertical-align: top;
+  padding-right: 20px;
+
+
+}
+
+.secciones {
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top:50px;
+font-size: 15px;
+font-family: 'Artifika', serif;
+  /*flex*/
+ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: space-around;
+}
+
+
+
+.productos {
+  margin-top: 40px;
+  /*flex*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+
+.imgs {
+  /*flex*/
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+
+}
+
+.productos li{
+  /*flex*/
+ align-content: center;
+}
+
+.info {
+  /*flex*/
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info img {
+  /*flex*/
+   justify-content: space-between;
+   margin-left: 40px;
+   margin-right: 80px;
+}
+
+.info a:hover{
+color:#ffff;
+
+}
+
+.vendidos {
+
+margin-top: 40px;
+border: solid;
+border-radius: 10px;
+  /*flex*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.vendidos p{
+
+font-size: 15px;
+  font-family: 'Artifika', serif;
+  text-align: center;
+}
+
+.vendidos div {
+ margin: 10px;
+   /*flex*/
+  display: flex;
+  flex-direction: column;
+  align-content:center;
+
+
+}
+
+.link {
+
+   text-decoration: none;
+   background-color:#11999e;
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+  color: white;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  font-family: 'Artifika', serif;
+}
+
+
+
+.subtitulo {
+
+background-color:#11999e;
+border-radius: 10px ;
+height:50px;
+
+}
+.subtitulo h2{
+  color: #fef6f6;
+  font-size: 25px;
+  font-family: 'Artifika', serif;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.vendidos input:hover{
+  color:#0A0E3B;
+}
+
+footer {
+  background-color: #40514e;
+  margin-top: 40px;
+  border-radius: 10px;
+  /*flex*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.redes {
+  margin-top: 10px;
+  padding-left: 30px;
+
+}
+
+.pagos {
+  padding-right: 30px;
+  margin-top: 5px;
+  /*flex*/
+  align-content: center;
+
+}
+
+h3 {
+
+  font-family: 'Cantata One', serif;
+}
+
+@media screen and (max-width: 885px) {
+  header {
+    width: 95%;
+  }
+
+section {
+  width: 95%;
+}
+
+.vendidos {
+display: flex;
+flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.vendidos div {
+display: flex;
+align-items: center;
+
+flex-wrap: nowrap;
+}
+
+.link {
+
+  width: 25%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.subtitulo {
+  width: 100%;
+}
+.titulo a{
+
+  font-size: 45px;
+}
+
+.productos{
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 540px) {
+  header {
+    width: 94%;
+  }
+  }
+
+  @media screen and (max-width: 250px) {
+    header {
+      width: 90%;
+    }
+
+    .vendidos {
+    display: flex;
+    flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+}
