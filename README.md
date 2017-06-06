@@ -16,13 +16,13 @@ La pagina web consta de 3 secciones:
 ![image2](docs/images/INDEX.png)
 
 Esta es la primera pagina que el usuario ve cuando entra al sitio.
-Muestra im�genes sobre los productos que se venden y de los productos mas vendidos. En el pie de pagina
-se señala los m�todos de pago y las redes sociales.
+Muestra imagenes sobre los productos que se venden y de los productos mas vendidos. En el pie de pagina
+se señala los metodos de pago y las redes sociales.
 
 ## PAGINA PRODUCTOS
 ![image3](docs/images/PRODUCTOS.png)
 
-En esta seccion se muestra cuatro imagenes cada una te lleva a la categor�a que le corresponde, las cuales son:
+En esta seccion se muestra cuatro imagenes cada una te lleva a la categoria que le corresponde, las cuales son:
 
 1. Computadoras
 2. Tablets
@@ -52,4 +52,5 @@ En esta seccion se muestran los accesorios que se venden junto con su descripcio
 ## PAGINA INFO
 ![image8](docs/images/info.png)
 
-En esta pagina se muestra un formulario para que el usuario env�e comentarios al sitio, los datos que se solicitan en este formulario son: Nombre, telefono y correo. Ademas del comentario que desea enviar el usuario.
+En esta pagina se muestra un formulario para que el usuario envie comentarios al sitio, los datos que se solicitan en este formulario son: Nombre, telefono y correo. Ademas del comentario que desea enviar el usuario.
+
