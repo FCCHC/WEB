@@ -11,6 +11,7 @@ header {
    width: 97%;
    padding: 20px;
    border-radius: 10px;
+  
   /*flex*/
   display:flex;
   flex-wrap:wrap;
@@ -128,6 +129,7 @@ justify-content: space-around;
 
 .info {
   /*flex*/
+
     display: flex;
     flex-direction: column;
 
@@ -277,6 +279,10 @@ flex-wrap: nowrap;
 .titulo a{
 
   font-size: 45px;
+}
+
+.productos{
+  flex-wrap: wrap;
 }
 }
 
