@@ -11,6 +11,7 @@ header {
    width: 97%;
    padding: 20px;
    border-radius: 10px;
+  
   /*flex*/
   display:flex;
   flex-wrap:wrap;
@@ -278,6 +279,10 @@ flex-wrap: nowrap;
 
   font-size: 45px;
 }
+
+.productos{
+  flex-wrap: wrap;
+}
 }
 
 @media screen and (max-width: 540px) {
@@ -297,5 +302,5 @@ flex-wrap: nowrap;
        flex-direction: column;
        justify-content: center;
     }
-
+}
     }
