@@ -129,7 +129,6 @@ justify-content: space-around;
 
 .info {
   /*flex*/
-
     display: flex;
     flex-direction: column;
 
@@ -303,5 +302,5 @@ flex-wrap: nowrap;
        flex-direction: column;
        justify-content: center;
     }
-
 }
+    }
