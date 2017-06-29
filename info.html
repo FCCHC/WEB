@@ -1,53 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>TECH SELL INFO</title>
-    <link rel="stylesheet" href="styles.css" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
-  </head>
-
-  <body>
-    <header>
-      <nav>
-        <a href="index.html"> INICIO </a>
-        <a href="productos.html"> PRODUCTOS </a>
-        <a href="info.html"> INFO</a>
-      </nav>
-    </header>
-
-    <div class="titulo">
-      <img  width="50" src="https://lh6.ggpht.com/SymRcy24pyvK2ePXqULyV4-daecHZT4YdIHqQN1-a9qoxkCGJRN01imF8lINr2Qrsnb5=w300" alt="logo"/>
-      <a href="index.html">TECH SELL</a>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECH SELL INFO</title>
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+ </head>
+ <body>
+  <div class="contenedor">
+   <header>
+    <div class="logo">
+     <img src="https://lh6.ggpht.com/SymRcy24pyvK2ePXqULyV4-daecHZT4YdIHqQN1-a9qoxkCGJRN01imF8lINr2Qrsnb5=w300" width="50" alt="logo">
+     <a href="inicio.html">TECHSELL</a>
     </div>
 
-    <section class="secciones">
-        <article>
+    <div class="buscador">
+     <input type="text" name="buscador" value="" autofocus="" placeholder="INGRESA EL NOMBRE DEL PRODUCTO">
+     <a class="buscar" href="#">BUSCAR</a>
+    </div>
+   </header>
 
-          <div>
-           NOMBRE:  <input type="text" name="Nombre" value="" autofocus="" placeholder="Nombre"><br>
-            CORREO: <input type="email" name="Correo" value="" placeholder="tucorreo@hotmail.com"><br>
-            TEL/CEL: <input type="tel" name="Telefono" value="" maxlength="15" placeholder="0123456789"><br>
-          <p> COMENTARIO:</p> <textarea name="comentarios" rows="10" cols="40">Escribe tu comentario</textarea>
-            <a class="link" href="">ENVIAR</a>
-          </div>
+   <section class="menu">
+    <nav>
+     <a href="computadora.html">LAPTOPS</a>
+     <a href="tablet.html">TABLETS</a>
+     <a href="telefono.html">SMARTPHONES</a>
+     <a href="accesorios.html">ACCESORIOS</a>
+     <a href="info.html">CONTACTO</a>
+    </nav>
+   </section>
 
+   <div class="titulo">
+    <h3>ENVIANOS TUS COMENTARIOS</h3>
+   </div>
 
-        </article>
-    </section>
+   <section class="vendidos">
+    <article>
+     <div>
+      <label for="NOmbre">NOMBRE</label><br>
+      <input type="text" name="Nombre" value="" autofocus="" placeholder="Nombre"><br>
+      <label for="mail">CORREO</label><br>
+      <input type="email" name="Correo" value="" placeholder="tucorreo@hotmail.com"><br>
+      <label for="TEL">TELEFONO/CELULAR</label><br>
+      <input type="tel" name="Telefono" value="" maxlength="15" placeholder="0123456789"><br>
+      <label for="asunto">ASUNTO</label>
+      <select class="" name="asunto">
+       <option value="comentario">COMENTARIO</option>
+       <option value="queja">QUEJA</option>
+       <option value="sugerencia">SUGERENCIA</option>
+       <option value="informes">INFORMES</option>
+      </select><br>
+      <label for="coment">COMENTARIO</label><br><textarea name="comentarios" rows="10" cols="40">Escribe tu comentario</textarea>
+      <a class="link" href="">ENVIAR</a>
+     </div>
+    </article>
+   </section>
 
-    <footer class="footer">
-         <div class="redes">
-           <img width="30" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-512.png" alt="fblogo"/>
-           <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Google_plus_icon.svg/2000px-Google_plus_icon.svg.png" alt="glogo"/>
-         </div>
+   <footer class="footer">
+    <div class="redes">
+     <img width="30" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-512.png" alt="fblogo"/>
+     <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Google_plus_icon.svg/2000px-Google_plus_icon.svg.png" alt="glogo"/>
+    </div>
 
-         <div class="pagos">
-              <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png" alt="visalogo"/>
-              <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Paypal-icon.png" alt="paypallogo"/>
-              <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/American-Express-icon.png" alt="aelogo"/>
-         </div>
-    </footer>
-  </body>
+    <div class="pagos">
+     <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Visa-icon.png" alt="visalogo"/>
+     <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Paypal-icon.png" alt="paypallogo"/>
+     <img width="45" src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/American-Express-icon.png" alt="aelogo"/>
+    </div>
+   </footer>
+  </div>
+ </body>
 </html>
